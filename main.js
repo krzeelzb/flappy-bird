@@ -1,4 +1,3 @@
-// Stworzenie stanu gry
 const mainState = {
   preload: function() {
     // This function will be executed at the beginning
