@@ -56,10 +56,16 @@ Test it :)
 
 ## The Pipes
 
-Create an empty group in **create()**.
+Load pipe sprite in **preload()**.
 
 ```javascript
 this.pipes = game.add.group();
+```
+
+Create an empty group in **create()**.
+
+```javascript
+game.load.image("pipe", "assets/pipe.png");
 ```
 
 For **addOnePipe(x,y)**:

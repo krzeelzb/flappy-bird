@@ -17,13 +17,14 @@ const mainState = {
 
   jump: function() {
     // Task 3
-    // Task 6
+    // Task 5
   },
 
   restartGame: function() {
     // Task 2
   },
-  addOnePipe: (x, y) => {},
+  addOnePipe: function(x, y) {},
+
   addRowOfPipes: function() {
     // This will be the hole position
     var hole = Math.floor(Math.random() * 5) + 1;
